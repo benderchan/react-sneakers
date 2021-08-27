@@ -38,7 +38,7 @@ const Drawer = ({opened ,closeCart, items = [], onRemove}) => {
     <div className={`${styles.overlay} ${opened && styles.overlayVisible}` }>
       <div className={styles.drawer}>
         <h2 className='mb-30 d-flex justify-between'>Cart
-          <img onClick={closeCart} className='removeBtn cu-p' src='/img/btn-remove.svg' alt='Close'/>
+          <img onClick={closeCart} className='removeBtn cu-p' src='img/btn-remove.svg' alt='Close'/>
         </h2>
         {
           items.length > 0
@@ -54,7 +54,7 @@ const Drawer = ({opened ,closeCart, items = [], onRemove}) => {
                         <p className='mb-5'>{el.name}</p>
                         <b>{el.price}$</b>
                       </div>
-                      <img onClick={() => onRemove(el.id)} className='removeBtn' src='/img/btn-remove.svg'
+                      <img onClick={() => onRemove(el.id)} className='removeBtn' src='img/btn-remove.svg'
                            alt='Remove'/>
                     </div>
                   ))
@@ -74,13 +74,13 @@ const Drawer = ({opened ,closeCart, items = [], onRemove}) => {
                   </li>
                 </ul>
                 <button disabled={loading} onClick={onOrderClick} className='greenButton'>Order <img
-                  src='/img/arrow.svg' alt=''/></button>
+                  src='img/arrow.svg' alt=''/></button>
               </div>
             </div>
             :
             <Info
               title={isOrderCompleted ? 'Order completed' : 'Cart is empty'}
-              image={isOrderCompleted ? '/img/order.jpg' : '/img/empty-cart.jpg'}
+              image={isOrderCompleted ? 'img/order.jpg' : 'img/empty-cart.jpg'}
               desc={isOrderCompleted ? `Your order is #${orderId}` : 'Add at least one pair before order'}
             />
         }
