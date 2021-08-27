@@ -8,7 +8,7 @@ const Header = ({openCart}) => {
   return (
     <header className='d-flex justify-between align-center p-40'>
 
-      <Link  to='/react-sneakers'>
+      <Link  to='/'>
         <div className='d-flex align-center'>
           <img width={40} height={40} src='img/logo.png' alt='HeaderLogo'/>
           <div>
@@ -24,12 +24,12 @@ const Header = ({openCart}) => {
           <span className='fw-bold'>{newPrice} {totalPrice}</span>$
         </li>
         <li className='mr-10'>
-          <Link to='/react-sneakers/favorites'>
+          <Link to='/favorites'>
             <img className='cu-p' width='18px' height='18px' src='img/heart.svg' alt='fav'/>
           </Link>
         </li>
         <li>
-          <Link to='/react-sneakers/orders'>
+          <Link to='/orders'>
             <img width='18px' height='18px' src='img/orders.svg' alt='User'/>
           </Link>
         </li>
