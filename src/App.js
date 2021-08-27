@@ -23,9 +23,9 @@ function App() {
     const fetchData = async () => {
       try {
         const [ cartData, likedData, sneakersData ] = await Promise.all([
-          axios.get('http://localhost:3001/cart'),
-          axios.get('http://localhost:3001/liked'),
-          axios.get('http://localhost:3001/sneakers?_page=1')
+          axios.get('https://6121174324d11c001762ef4c.mockapi.io/cart'),
+          axios.get('https://6121174324d11c001762ef4c.mockapi.io/liked'),
+          axios.get('https://6121174324d11c001762ef4c.mockapi.io/items')
         ])
 
         setIsLoading(false)
@@ -118,7 +118,7 @@ function App() {
 
         <Header cartItems={cartItems} openCart={openCart}/>
 
-        <Route path='/' exact>
+        <Route path='/sneakers' exact>
           <Home
             cartItems={cartItems}
             searchValue={searchValue}
