@@ -114,7 +114,7 @@ function App() {
 
         <Header cartItems={cartItems} openCart={openCart}/>
 
-        <Route path='' exact>
+        <Route path='/react-sneakers' exact>
           <Home
             cartItems={cartItems}
             searchValue={searchValue}
@@ -126,10 +126,10 @@ function App() {
             loading={isLoading}
           />
         </Route>
-        <Route path='favorites' exact>
+        <Route path='/react-sneakers/favorites' exact>
           <Favorites/>
         </Route>
-        <Route path='orders' exact>
+        <Route path='/react-sneakers/orders' exact>
           <Orders/>
         </Route>
 
