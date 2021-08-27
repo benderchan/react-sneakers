@@ -95,13 +95,9 @@ function App() {
 
   const openCart = () => {
     setCartOpened(true)
-    if(!cartOpened){
-      document.body.style.overflow = "hidden"
-    }
   }
   const closeCart = () => {
     setCartOpened(false)
-    document.body.style.overflow = "visible"
   }
 
   return (
