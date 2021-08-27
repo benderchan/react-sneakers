@@ -30,7 +30,7 @@ const Header = ({openCart}) => {
         </li>
         <li>
           <Link to='/orders'>
-            <img width='18px' height='18px' src='img/union.svg' alt='User'/>
+            <img width='18px' height='18px' src='img/orders.svg' alt='User'/>
           </Link>
         </li>
       </ul>
