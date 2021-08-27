@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/benderchan/sneakers.git/static/css/main.0857b9fb.chunk.css",
+    "main.js": "/benderchan/sneakers.git/static/js/main.5978b1fb.chunk.js",
+    "main.js.map": "/benderchan/sneakers.git/static/js/main.5978b1fb.chunk.js.map",
+    "runtime-main.js": "/benderchan/sneakers.git/static/js/runtime-main.cd5ce662.js",
+    "runtime-main.js.map": "/benderchan/sneakers.git/static/js/runtime-main.cd5ce662.js.map",
+    "static/css/2.1cdcfe91.chunk.css": "/benderchan/sneakers.git/static/css/2.1cdcfe91.chunk.css",
+    "static/js/2.2acd95bd.chunk.js": "/benderchan/sneakers.git/static/js/2.2acd95bd.chunk.js",
+    "static/js/2.2acd95bd.chunk.js.map": "/benderchan/sneakers.git/static/js/2.2acd95bd.chunk.js.map",
+    "index.html": "/benderchan/sneakers.git/index.html",
+    "static/css/2.1cdcfe91.chunk.css.map": "/benderchan/sneakers.git/static/css/2.1cdcfe91.chunk.css.map",
+    "static/css/main.0857b9fb.chunk.css.map": "/benderchan/sneakers.git/static/css/main.0857b9fb.chunk.css.map",
+    "static/js/2.2acd95bd.chunk.js.LICENSE.txt": "/benderchan/sneakers.git/static/js/2.2acd95bd.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cd5ce662.js",
+    "static/css/2.1cdcfe91.chunk.css",
+    "static/js/2.2acd95bd.chunk.js",
+    "static/css/main.0857b9fb.chunk.css",
+    "static/js/main.5978b1fb.chunk.js"
+  ]
+}
