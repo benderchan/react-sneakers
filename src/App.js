@@ -114,7 +114,7 @@ function App() {
 
         <Header cartItems={cartItems} openCart={openCart}/>
 
-        <Route path='/sneakers' exact>
+        <Route path='' exact>
           <Home
             cartItems={cartItems}
             searchValue={searchValue}
@@ -126,10 +126,10 @@ function App() {
             loading={isLoading}
           />
         </Route>
-        <Route path='/favorites' exact>
+        <Route path='favorites' exact>
           <Favorites/>
         </Route>
-        <Route path='/orders' exact>
+        <Route path='orders' exact>
           <Orders/>
         </Route>
 
