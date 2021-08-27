@@ -114,7 +114,7 @@ function App() {
 
         <Header cartItems={cartItems} openCart={openCart}/>
 
-        <Route path='/react-sneakers' exact>
+        <Route path='/' exact>
           <Home
             cartItems={cartItems}
             searchValue={searchValue}

@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { useCart } from '../Hooks/useCart';
-import logo from '../../public/img/logo.png'
 
 const Header = ({openCart}) => {
 
@@ -11,7 +10,7 @@ const Header = ({openCart}) => {
 
       <Link to='/react-sneakers'>
         <div className='d-flex align-center'>
-          <img width={40} height={40} src={logo} alt='HeaderLogo'/>
+          <img width={40} height={40} src='img/logo.png' alt='HeaderLogo'/>
           <div>
             <h3 className='text-uppercase'>React Sneakers</h3>
             <p className='opacity-5'>Sneakers store</p>
