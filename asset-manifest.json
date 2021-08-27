@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/sneakers.git/static/css/main.0857b9fb.chunk.css",
-    "main.js": "/sneakers.git/static/js/main.5978b1fb.chunk.js",
-    "main.js.map": "/sneakers.git/static/js/main.5978b1fb.chunk.js.map",
-    "runtime-main.js": "/sneakers.git/static/js/runtime-main.b8bc12fa.js",
-    "runtime-main.js.map": "/sneakers.git/static/js/runtime-main.b8bc12fa.js.map",
-    "static/css/2.1cdcfe91.chunk.css": "/sneakers.git/static/css/2.1cdcfe91.chunk.css",
-    "static/js/2.2acd95bd.chunk.js": "/sneakers.git/static/js/2.2acd95bd.chunk.js",
-    "static/js/2.2acd95bd.chunk.js.map": "/sneakers.git/static/js/2.2acd95bd.chunk.js.map",
-    "index.html": "/sneakers.git/index.html",
-    "static/css/2.1cdcfe91.chunk.css.map": "/sneakers.git/static/css/2.1cdcfe91.chunk.css.map",
-    "static/css/main.0857b9fb.chunk.css.map": "/sneakers.git/static/css/main.0857b9fb.chunk.css.map",
-    "static/js/2.2acd95bd.chunk.js.LICENSE.txt": "/sneakers.git/static/js/2.2acd95bd.chunk.js.LICENSE.txt"
+    "main.css": "/sneakers/static/css/main.0857b9fb.chunk.css",
+    "main.js": "/sneakers/static/js/main.5978b1fb.chunk.js",
+    "main.js.map": "/sneakers/static/js/main.5978b1fb.chunk.js.map",
+    "runtime-main.js": "/sneakers/static/js/runtime-main.9882021a.js",
+    "runtime-main.js.map": "/sneakers/static/js/runtime-main.9882021a.js.map",
+    "static/css/2.1cdcfe91.chunk.css": "/sneakers/static/css/2.1cdcfe91.chunk.css",
+    "static/js/2.2acd95bd.chunk.js": "/sneakers/static/js/2.2acd95bd.chunk.js",
+    "static/js/2.2acd95bd.chunk.js.map": "/sneakers/static/js/2.2acd95bd.chunk.js.map",
+    "index.html": "/sneakers/index.html",
+    "static/css/2.1cdcfe91.chunk.css.map": "/sneakers/static/css/2.1cdcfe91.chunk.css.map",
+    "static/css/main.0857b9fb.chunk.css.map": "/sneakers/static/css/main.0857b9fb.chunk.css.map",
+    "static/js/2.2acd95bd.chunk.js.LICENSE.txt": "/sneakers/static/js/2.2acd95bd.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.b8bc12fa.js",
+    "static/js/runtime-main.9882021a.js",
     "static/css/2.1cdcfe91.chunk.css",
     "static/js/2.2acd95bd.chunk.js",
     "static/css/main.0857b9fb.chunk.css",
