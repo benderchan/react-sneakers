@@ -3,18 +3,13 @@ import { Link, useHistory } from 'react-router-dom';
 import { useCart } from '../Hooks/useCart';
 
 const Header = ({openCart}) => {
-  const handleClick = () => {
-
-    const history = useHistory()
-    history.push("/react-sneakers")
-  }
 
   const {totalPrice, newPrice} = useCart()
   return (
     <header className='d-flex justify-between align-center p-40'>
 
       <Link  to='/react-sneakers'>
-        <div onClick={handleClick} className='d-flex align-center'>
+        <div className='d-flex align-center'>
           <img width={40} height={40} src='img/logo.png' alt='HeaderLogo'/>
           <div>
             <h3 className='text-uppercase'>React Sneakers</h3>
